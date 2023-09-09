@@ -1,0 +1,296 @@
+style.css .title-curly {
+  font-family: "Dancing Script", cursive;
+  font-size: 55px;
+}
+
+/* HEADER STYLING */
+.navbar {
+  background-color: #a9a9a9;
+}
+.logo {
+  margin-top: -10px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+.navbar-brand {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+header ul li a {
+  font-size: 22px;
+  font-weight: 400;
+  text-align: right;
+}
+.nav-item .nav-link:hover {
+  color: #000000 !important;
+}
+/* HEADER STYLING */
+
+/* MAIN STYLING  */
+.main,
+.main .carouselExampleCaptions,
+.carouselExampleCaptions .carousel-inner,
+.carousel-inner .carousel-item {
+  width: 100%;
+  height: 100vh;
+}
+.carousel-inner-p {
+  width: 100%;
+  height: 100vh;
+  border: 5px solid black; /* Añadimos un marco negro alrededor del carrusel */
+  box-sizing: border-box; /* Aseguramos que el marco esté incluido en las dimensiones del carrusel */
+}
+.carousel-caption {
+  height: 55%;
+}
+.main img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.carousel-item {
+  position: relative;
+}
+.main .carousel-item::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.467);
+  width: 100%;
+  height: 100%;
+}
+.carousel-item .carousel-caption {
+  z-index: 10;
+}
+.caption {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.main-p {
+  font-size: 20px;
+  width: 75%;
+  margin: auto;
+}
+.carousel-caption button {
+  margin: 40px 20px;
+  padding: 10px 20px;
+  font-size: 22px;
+}
+h4 {
+  max-width: 600px;
+  max-height: 80px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 10px;
+  text-align: center;
+  border: 4px solid #008000;
+  border-radius: 10px;
+  display: inline-block;
+}
+h5 {
+  max-width: 600px;
+  max-height: 80px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 10px;
+  text-align: center;
+  border: 4px solid #008000;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+/* Estilos para el icono dentro del encabezado */
+.heading-icon {
+  margin: 10px; /* Espacio entre el icono y el texto */
+}
+
+/* Estilos para los iconos */
+.icon-design {
+  font-size: 24px; /* Tamaño del icono */
+  color: #008000; /* Color del icono */
+}
+.grid-container {
+  display: grid;
+  background-color: #c3c3c3;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.grid-container-p {
+  display: grid;
+  background-color: #c3c3c3;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.grid-item {
+  border: 10px solid #a9a9a9;
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: 150px;
+}
+
+/* Estilo para los subtítulos en negrita */
+.service-description strong {
+  font-weight: bold;
+  font-size: 188px;
+}
+
+/* Justificar el texto */
+.service-description {
+  text-align: left;
+}
+
+/* Espaciado entre párrafos */
+.service-description:not(:last-child) {
+  margin-bottom: 20px;
+}
+/* Estilo cuadro destacados */
+.property-table {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  border-collapse: collapse;
+  border: 2px solid #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.caption {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 10px;
+}
+
+.property-description {
+  font-size: 20px;
+  text-align: center;
+  color: #555;
+  padding: 10px;
+}
+
+.property-features-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  padding: 10px;
+  width: 40%;
+}
+
+.property-features {
+  font-size: 20px;
+  text-align: left;
+  color: #555;
+  padding: 10px;
+}
+
+.property-features ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+/* MAIN STYLING  */
+
+/* BANNER STYLING  */
+.featured .icons i:hover {
+  color: blue;
+  opacity: 1;
+}
+
+.card-body button {
+  width: 200px;
+}
+
+.banner {
+  width: 100%;
+  height: 600px;
+  margin-top: 60px;
+}
+.banner .container-fluid {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.566), rgba(0, 0, 0, 0.486)),
+    url("./Images/.LOGO.PNG");
+  background-size: cover;
+  background-position: center 50%;
+}
+.banner h1 {
+  font-size: 65px;
+}
+.banner p {
+  font-size: 20px;
+  text-align: center;
+}
+.banner i {
+  font-size: 70px;
+  margin: 20px auto;
+  box-shadow: 4px 4px 50px rgba(0, 145, 255, 0.496),
+    -10px -10px 50px rgb(60, 60, 60);
+  border-radius: 50%;
+}
+.banner i:hover {
+  transform: scale(1.06);
+  transition: 0.2s all ease-out;
+}
+
+/* BANNER STYLING  */
+/* FOOTER STYILING  */
+footer li {
+  background-color: #a9a9a9;
+}
+
+footer ul {
+  margin-left: -28px;
+  background-color: #a9a9a9;
+  margin-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  background-color: #a9a9a9;
+  font-size: 18px;
+  opacity: 0.8;
+}
+/* Estilos para el botón rectangular */
+.custom-button {
+  width: 500px;
+  height: 70px;
+  background-image: url("imagenes/imagen-logo-index-inmobiliaria.jpg"); /* Reemplaza 'tu-imagen.jpg' con la URL de tu imagen */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+/* FOOTER STYILING  */
+.whatsapp--button {
+  display: inline-block;
+  background-color: #a9a9a9;
+  color: #c3c3c3;
+  padding: 8px 16px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp--button i {
+  font-size: 18px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.whatsapp--button:hover {
+  background-color: #a9a9a9;
+}
